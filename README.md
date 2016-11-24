@@ -1,5 +1,5 @@
 # RealTime Stock Data and Alerts send to CellPhone via SMS
-This a Google app script (based on Javascript) that allows fetching realtime stock data from Google Finance and sending price alerts after passing certain BUY ro SELL values.
+This a Google app script (based on Javascript) that allows fetching realtime stock data from Google Finance and sending price alerts after passing certain BUY ro SELL values. It uses the Twilio API for sending SMS message to cell phones. Before using it, please register a Twilio free account.
 
 The link below is a demo Google sheet with this script:
 https://docs.google.com/spreadsheets/d/1vGBjToFXKiZmxlN9UHaTyukcU9BUYwVb5jq91epI1Uo/edit?usp=sharing
@@ -11,4 +11,5 @@ When editing, please keep the following things in mind:
 * Do not totally rely on this app, sometimes google service breaks. If this happens, check the triggers in Step5. Everytime you make a change to the script, renew the triggers, making sure they are not gray.
 
 In this Google spreadsheet, do the following modifications:
+
 ![alt tag](https://cloud.githubusercontent.com/assets/10473229/20608250/f58e7b2c-b234-11e6-83e1-c056b1c440cd.png)
